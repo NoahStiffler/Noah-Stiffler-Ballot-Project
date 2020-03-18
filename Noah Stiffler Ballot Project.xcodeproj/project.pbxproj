@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E33B9E224228E87002051EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33B9E124228E87002051EE /* AppDelegate.swift */; };
+		9E33B9E424228E87002051EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33B9E324228E87002051EE /* SceneDelegate.swift */; };
+		9E33B9E624228E87002051EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33B9E524228E87002051EE /* ViewController.swift */; };
+		9E33B9E924228E87002051EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E33B9E724228E87002051EE /* Main.storyboard */; };
+		9E33B9EC24228E87002051EE /* Noah_Stiffler_Ballot_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E33B9EA24228E87002051EE /* Noah_Stiffler_Ballot_Project.xcdatamodeld */; };
+		9E33B9EE24228E89002051EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E33B9ED24228E89002051EE /* Assets.xcassets */; };
+		9E33B9F124228E89002051EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E33B9EF24228E89002051EE /* LaunchScreen.storyboard */; };
+		9E33B9FC24228E89002051EE /* Noah_Stiffler_Ballot_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33B9FB24228E89002051EE /* Noah_Stiffler_Ballot_ProjectTests.swift */; };
+		9E33BA0724228E89002051EE /* Noah_Stiffler_Ballot_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33BA0624228E89002051EE /* Noah_Stiffler_Ballot_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E33B9F824228E89002051EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E33B9D624228E87002051EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E33B9DD24228E87002051EE;
+			remoteInfo = "Noah Stiffler Ballot Project";
+		};
+		9E33BA0324228E89002051EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E33B9D624228E87002051EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E33B9DD24228E87002051EE;
+			remoteInfo = "Noah Stiffler Ballot Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E33B9DE24228E87002051EE /* Noah Stiffler Ballot Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noah Stiffler Ballot Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E33B9E124228E87002051EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E33B9E324228E87002051EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E33B9E524228E87002051EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E33B9E824228E87002051EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E33B9EB24228E87002051EE /* Noah_Stiffler_Ballot_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noah_Stiffler_Ballot_Project.xcdatamodel; sourceTree = "<group>"; };
+		9E33B9ED24228E89002051EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E33B9F024228E89002051EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E33B9F224228E89002051EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E33B9F724228E89002051EE /* Noah Stiffler Ballot ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noah Stiffler Ballot ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E33B9FB24228E89002051EE /* Noah_Stiffler_Ballot_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noah_Stiffler_Ballot_ProjectTests.swift; sourceTree = "<group>"; };
+		9E33B9FD24228E89002051EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E33BA0224228E89002051EE /* Noah Stiffler Ballot ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noah Stiffler Ballot ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E33BA0624228E89002051EE /* Noah_Stiffler_Ballot_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noah_Stiffler_Ballot_ProjectUITests.swift; sourceTree = "<group>"; };
+		9E33BA0824228E89002051EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E33B9DB24228E87002051EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E33B9F424228E89002051EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E33B9FF24228E89002051EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E33B9D524228E87002051EE = {
+			isa = PBXGroup;
+			children = (
+				9E33B9E024228E87002051EE /* Noah Stiffler Ballot Project */,
+				9E33B9FA24228E89002051EE /* Noah Stiffler Ballot ProjectTests */,
+				9E33BA0524228E89002051EE /* Noah Stiffler Ballot ProjectUITests */,
+				9E33B9DF24228E87002051EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E33B9DF24228E87002051EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E33B9DE24228E87002051EE /* Noah Stiffler Ballot Project.app */,
+				9E33B9F724228E89002051EE /* Noah Stiffler Ballot ProjectTests.xctest */,
+				9E33BA0224228E89002051EE /* Noah Stiffler Ballot ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E33B9E024228E87002051EE /* Noah Stiffler Ballot Project */ = {
+			isa = PBXGroup;
+			children = (
+				9E33B9E124228E87002051EE /* AppDelegate.swift */,
+				9E33B9E324228E87002051EE /* SceneDelegate.swift */,
+				9E33B9E524228E87002051EE /* ViewController.swift */,
+				9E33B9E724228E87002051EE /* Main.storyboard */,
+				9E33B9ED24228E89002051EE /* Assets.xcassets */,
+				9E33B9EF24228E89002051EE /* LaunchScreen.storyboard */,
+				9E33B9F224228E89002051EE /* Info.plist */,
+				9E33B9EA24228E87002051EE /* Noah_Stiffler_Ballot_Project.xcdatamodeld */,
+			);
+			path = "Noah Stiffler Ballot Project";
+			sourceTree = "<group>";
+		};
+		9E33B9FA24228E89002051EE /* Noah Stiffler Ballot ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E33B9FB24228E89002051EE /* Noah_Stiffler_Ballot_ProjectTests.swift */,
+				9E33B9FD24228E89002051EE /* Info.plist */,
+			);
+			path = "Noah Stiffler Ballot ProjectTests";
+			sourceTree = "<group>";
+		};
+		9E33BA0524228E89002051EE /* Noah Stiffler Ballot ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E33BA0624228E89002051EE /* Noah_Stiffler_Ballot_ProjectUITests.swift */,
+				9E33BA0824228E89002051EE /* Info.plist */,
+			);
+			path = "Noah Stiffler Ballot ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E33B9DD24228E87002051EE /* Noah Stiffler Ballot Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E33BA0B24228E89002051EE /* Build configuration list for PBXNativeTarget "Noah Stiffler Ballot Project" */;
+			buildPhases = (
+				9E33B9DA24228E87002051EE /* Sources */,
+				9E33B9DB24228E87002051EE /* Frameworks */,
+				9E33B9DC24228E87002051EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noah Stiffler Ballot Project";
+			productName = "Noah Stiffler Ballot Project";
+			productReference = 9E33B9DE24228E87002051EE /* Noah Stiffler Ballot Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E33B9F624228E89002051EE /* Noah Stiffler Ballot ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E33BA0E24228E89002051EE /* Build configuration list for PBXNativeTarget "Noah Stiffler Ballot ProjectTests" */;
+			buildPhases = (
+				9E33B9F324228E89002051EE /* Sources */,
+				9E33B9F424228E89002051EE /* Frameworks */,
+				9E33B9F524228E89002051EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E33B9F924228E89002051EE /* PBXTargetDependency */,
+			);
+			name = "Noah Stiffler Ballot ProjectTests";
+			productName = "Noah Stiffler Ballot ProjectTests";
+			productReference = 9E33B9F724228E89002051EE /* Noah Stiffler Ballot ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E33BA0124228E89002051EE /* Noah Stiffler Ballot ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E33BA1124228E89002051EE /* Build configuration list for PBXNativeTarget "Noah Stiffler Ballot ProjectUITests" */;
+			buildPhases = (
+				9E33B9FE24228E89002051EE /* Sources */,
+				9E33B9FF24228E89002051EE /* Frameworks */,
+				9E33BA0024228E89002051EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E33BA0424228E89002051EE /* PBXTargetDependency */,
+			);
+			name = "Noah Stiffler Ballot ProjectUITests";
+			productName = "Noah Stiffler Ballot ProjectUITests";
+			productReference = 9E33BA0224228E89002051EE /* Noah Stiffler Ballot ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E33B9D624228E87002051EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Noah Stiffler";
+				TargetAttributes = {
+					9E33B9DD24228E87002051EE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9E33B9F624228E89002051EE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9E33B9DD24228E87002051EE;
+					};
+					9E33BA0124228E89002051EE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9E33B9DD24228E87002051EE;
+					};
+				};
+			};
+			buildConfigurationList = 9E33B9D924228E87002051EE /* Build configuration list for PBXProject "Noah Stiffler Ballot Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E33B9D524228E87002051EE;
+			productRefGroup = 9E33B9DF24228E87002051EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E33B9DD24228E87002051EE /* Noah Stiffler Ballot Project */,
+				9E33B9F624228E89002051EE /* Noah Stiffler Ballot ProjectTests */,
+				9E33BA0124228E89002051EE /* Noah Stiffler Ballot ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E33B9DC24228E87002051EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E33B9F124228E89002051EE /* LaunchScreen.storyboard in Resources */,
+				9E33B9EE24228E89002051EE /* Assets.xcassets in Resources */,
+				9E33B9E924228E87002051EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E33B9F524228E89002051EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E33BA0024228E89002051EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E33B9DA24228E87002051EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E33B9EC24228E87002051EE /* Noah_Stiffler_Ballot_Project.xcdatamodeld in Sources */,
+				9E33B9E624228E87002051EE /* ViewController.swift in Sources */,
+				9E33B9E224228E87002051EE /* AppDelegate.swift in Sources */,
+				9E33B9E424228E87002051EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E33B9F324228E89002051EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E33B9FC24228E89002051EE /* Noah_Stiffler_Ballot_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E33B9FE24228E89002051EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E33BA0724228E89002051EE /* Noah_Stiffler_Ballot_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E33B9F924228E89002051EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E33B9DD24228E87002051EE /* Noah Stiffler Ballot Project */;
+			targetProxy = 9E33B9F824228E89002051EE /* PBXContainerItemProxy */;
+		};
+		9E33BA0424228E89002051EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E33B9DD24228E87002051EE /* Noah Stiffler Ballot Project */;
+			targetProxy = 9E33BA0324228E89002051EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E33B9E724228E87002051EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E33B9E824228E87002051EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E33B9EF24228E89002051EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E33B9F024228E89002051EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E33BA0924228E89002051EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E33BA0A24228E89002051EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E33BA0C24228E89002051EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = "Noah Stiffler Ballot Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodewack.Noah-Stiffler-Ballot-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E33BA0D24228E89002051EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = "Noah Stiffler Ballot Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodewack.Noah-Stiffler-Ballot-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E33BA0F24228E89002051EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = "Noah Stiffler Ballot ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodewack.Noah-Stiffler-Ballot-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noah Stiffler Ballot Project.app/Noah Stiffler Ballot Project";
+			};
+			name = Debug;
+		};
+		9E33BA1024228E89002051EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = "Noah Stiffler Ballot ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodewack.Noah-Stiffler-Ballot-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noah Stiffler Ballot Project.app/Noah Stiffler Ballot Project";
+			};
+			name = Release;
+		};
+		9E33BA1224228E89002051EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = "Noah Stiffler Ballot ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodewack.Noah-Stiffler-Ballot-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Noah Stiffler Ballot Project";
+			};
+			name = Debug;
+		};
+		9E33BA1324228E89002051EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZ6CCG34TD;
+				INFOPLIST_FILE = "Noah Stiffler Ballot ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodewack.Noah-Stiffler-Ballot-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Noah Stiffler Ballot Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E33B9D924228E87002051EE /* Build configuration list for PBXProject "Noah Stiffler Ballot Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E33BA0924228E89002051EE /* Debug */,
+				9E33BA0A24228E89002051EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E33BA0B24228E89002051EE /* Build configuration list for PBXNativeTarget "Noah Stiffler Ballot Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E33BA0C24228E89002051EE /* Debug */,
+				9E33BA0D24228E89002051EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E33BA0E24228E89002051EE /* Build configuration list for PBXNativeTarget "Noah Stiffler Ballot ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E33BA0F24228E89002051EE /* Debug */,
+				9E33BA1024228E89002051EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E33BA1124228E89002051EE /* Build configuration list for PBXNativeTarget "Noah Stiffler Ballot ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E33BA1224228E89002051EE /* Debug */,
+				9E33BA1324228E89002051EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E33B9EA24228E87002051EE /* Noah_Stiffler_Ballot_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E33B9EB24228E87002051EE /* Noah_Stiffler_Ballot_Project.xcdatamodel */,
+			);
+			currentVersion = 9E33B9EB24228E87002051EE /* Noah_Stiffler_Ballot_Project.xcdatamodel */;
+			path = Noah_Stiffler_Ballot_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E33B9D624228E87002051EE /* Project object */;
+}
