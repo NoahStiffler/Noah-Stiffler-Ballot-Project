@@ -219,7 +219,7 @@
             </objects>
             <point key="canvasLocation" x="295.6521739130435" y="758.70535714285711"/>
         </scene>
-        <!--Item-->
+        <!--Results-->
         <scene sceneID="Pui-PO-SI0">
             <objects>
                 <viewController id="rmq-Br-ayg" customClass="resultVC" customModule="Noah_Stiffler_Ballot_Project" customModuleProvider="target" sceneMemberID="viewController">
@@ -274,7 +274,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kQp-4y-Kbu"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="book.circle" catalog="system" selectedImage="book.circle.fill" id="5Kq-8q-9pS"/>
+                    <tabBarItem key="tabBarItem" title="Results" image="book.circle" catalog="system" selectedImage="book.circle.fill" id="5Kq-8q-9pS"/>
                     <connections>
                         <outlet property="gameVote" destination="cbz-qq-YDC" id="lVE-kR-CeR"/>
                         <outlet property="opSysVote" destination="Dkz-Zv-709" id="qET-x8-494"/>
@@ -286,7 +286,7 @@
             </objects>
             <point key="canvasLocation" x="898.55072463768124" y="758.70535714285711"/>
         </scene>
-        <!--Item 1-->
+        <!--Welcome-->
         <scene sceneID="Tx3-B6-Fzt">
             <objects>
                 <viewController id="xr9-5S-NU8" customClass="welcomeVC" customModule="Noah_Stiffler_Ballot_Project" customModuleProvider="target" sceneMemberID="viewController">
@@ -353,7 +353,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="SZr-Tn-GBb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" image="person.crop.circle" catalog="system" selectedImage="person.circle.fill" id="ogh-MY-3pk"/>
+                    <tabBarItem key="tabBarItem" title="Welcome" image="person.crop.circle" catalog="system" selectedImage="person.circle.fill" id="ogh-MY-3pk"/>
                     <connections>
                         <outlet property="firstName" destination="1nM-fQ-tjb" id="6tQ-F1-5nc"/>
                         <outlet property="lastName" destination="bUW-XE-Ovi" id="0AJ-Nm-Abl"/>
